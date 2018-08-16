@@ -2,8 +2,12 @@
   title_transmit_bg_color = "#d30102"
 [keybindings]
   broadcast_all = None
+  edit_tab_title = <Primary><Alt>x
+  edit_terminal_title = None
+  edit_window_title = None
   group_all = None
   help = None
+  hide_window = None
   split_horiz = <Alt>apostrophe
   split_vert = <Alt>5
 [layouts]
