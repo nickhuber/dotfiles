@@ -3,10 +3,10 @@ set fish_greeting "¯\_(ツ)_/¯"
 set -x DEBFULLNAME "Nick Huber"
 set -x DEBEMAIL "nick.huber@multapplied.net"
 
-set -U fish_user_paths /home/nick/.local/bin $fish_user_paths
+set -U fish_user_paths ~/.local/bin $fish_user_paths
 
 export EDITOR=nvim
-export NETRC=/home/nick/.netrc
+export NETRC=~/.netrc
 
 function timestamp
     command date -d@(math $argv / 1000000000)
