@@ -24,7 +24,6 @@ theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = dpi(4)
 theme.border_width  = dpi(3)
 theme.border_normal = "#000000"
 theme.border_focus  = "#ffca3a"
@@ -97,7 +96,7 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."titlebar/maximiz
 theme.titlebar_maximized_button_normal_active = themes_path.."titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."titlebar/maximized_focus_active.png"
 
-theme.wallpaper = themes_path.."background.png"
+theme.wallpaper = themes_path.."background-ultrawide.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."layouts/fairhw.png"
