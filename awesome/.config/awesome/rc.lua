@@ -303,6 +303,14 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1) end,
               {description = "select previous", group = "layout"}),
 
+    -- Audio
+    awful.key({ }, "XF86AudioRaiseVolume", function () awful.util.spawn("amixer set Master 9%+") end,
+            {description= "Raise the volume a bit", group = "audio"}),
+    awful.key({ }, "XF86AudioLowerVolume", function () awful.util.spawn("amixer set Master 9%-") end,
+            {description= "Lower the volume a bit", group = "audio"}),
+    awful.key({ }, "XF86AudioMute", function () awful.util.spawn("amixer sset Master toggle") end,
+            {description= "Mute/unmute the volume", group = "audio"}),
+
     -- Prompt
     awful.key({ modkey,           }, "r",     function () awful.screen.focused().mypromptbox:run() end,
               {description = "run prompt", group = "launcher"}),
